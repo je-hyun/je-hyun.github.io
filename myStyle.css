@@ -1,0 +1,79 @@
+/*
+color scheme: https://coolors.co/app/522b29-37ff8b-51d6ff-8d9ec6-a06b9a
+brown: #522B29
+green: #37FF8B
+blue : #51D6FF
+gloom: #8D9EC6
+purpl: #51D6FF
+*/
+@font-face {
+    font-family: titleFont;
+    src: url(fonts/Adam.otf);
+}
+
+body {
+    background-image: url("images/background.png");
+    margin-left:0;
+    margin-right:0;
+    margin-top:0px;
+    padding-bottom:0px;
+}
+
+.intro {
+    
+    background-image: url("images/background.png");
+    font-family: titleFont;
+    background-repeat: repeat;
+    color: #522B29;
+    text-align: center;
+    margin:0;
+    margin-bottom:100px;
+    padding-top: 150px;
+}
+
+
+.intro h1 {
+    margin-left:0;
+    padding-left:10%;
+    padding-right:15px;
+    background-color: #51D6FF;
+    position:absolute;
+    left:auto;
+    top: 20px;
+    padding-bottom:0px;
+    font-size: 70px;
+    
+}
+.quote{
+    background-color: #8D9EC6;
+    color:white;
+    margin-left: 10px;
+    margin-right: 100px;
+    padding-left:2.5%;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 7px;
+    border: 2px solid #522B29;
+}
+.intro p {
+    margin-left:0;
+    padding-left: 10%;
+    padding-right:15px;
+    background-color: #51D6FF;
+    font-size: 40px;
+    position:absolute;
+    left:auto;
+    top: 90px;
+}
+
+.content {
+    color: #522B29;
+    padding-left: 100px;
+    background-color: white;
+    margin-left:10%;
+    margin-right:10%;
+    padding-top:30px;
+    padding-bottom:40px;
+    border-radius: 7px;
+    border: 2px solid #522B29;
+}
