@@ -24,10 +24,10 @@ body {
     background-image: url("images/background.png");
     font-family: titleFont;
     background-repeat: repeat;
-    color: #522B29;
+   /* color: #522B29;*/
     text-align: center;
     margin:0;
-    margin-bottom:100px;
+    padding-bottom:100px;
     padding-top: 150px;
 }
 
@@ -52,8 +52,8 @@ body {
     padding-left:2.5%;
     padding-top:15px;
     padding-bottom:15px;
-    border-radius: 7px;
-    border: 2px solid #522B29;
+    border-radius: 3px;
+    border: 1px solid #522B29;
 }
 .intro p {
     margin-left:0;
@@ -74,6 +74,6 @@ body {
     margin-right:10%;
     padding-top:30px;
     padding-bottom:40px;
-    border-radius: 7px;
-    border: 2px solid #522B29;
+    border-radius: 10px;
+    border: 3px solid #522B29;
 }

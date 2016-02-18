@@ -3,11 +3,17 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Main</title>
+    <script>
+    function myFunction() {
+        var taglist = ["i didn't do it i swear","the butler did it","just add water","je m'appelle je","grass fed organic tea","airplane food am i right?","self.image.get_rect()","i dropped a quarter somewhere<br><br><br><br><br><br><br><br>i<br>v<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>i<br>v<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>it's not down here..."];
+        document.getElementById("tagline").innerHTML = taglist[Math.floor((Math.random() * taglist.length))];
+    }
+    </script>
 </head>
-<body>
+<body onload = "myFunction()">
     <div class = "intro">
          <h1><span>Je-Hyun's site<span></h1>
-         <p>i didn't do it i swear</p>
+         <p id="tagline"></p>
     </div>
          
     </div>
