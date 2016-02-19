@@ -11,11 +11,42 @@ purpl: #51D6FF
     src: url(fonts/Adam.otf);
 }
 
+ul#menu li {
+    display:inline;
+    padding-left:5%;
+}
+ul#menu li a{
+    background-color: #51D6FF;
+    color: #522B29;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+    padding-bottom:10px;
+    border-bottom:1px dashed #522B29;
+    
+}
+
+ul#menu li a:hover{
+    background: linear-gradient(circle, rgba(255,0,0,0), #A06B9A);
+    color:white;
+    text-decoration:none;
+}
+
+.header {
+    height:41px;
+    background:#51D6FF;
+    border-bottom:1px dashed #522B29;
+    width:100%;
+    margin:0px auto;
+    position: fixed;
+    top:0px;
+    font-family:titleFont;
+    z-index:9999;
+}
+
 body {
     background-image: url("images/background.png");
-    margin-left:0;
-    margin-right:0;
-    margin-top:0px;
+    margin:0px;
     padding-bottom:0px;
 }
 
@@ -28,13 +59,13 @@ body {
     text-align: center;
     margin:0;
     padding-bottom:100px;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 
 .intro h1 {
     margin-left:0;
-    padding-left:10%;
+    padding-left:20%;
     padding-right:15px;
     background-color: #51D6FF;
     position:absolute;
@@ -42,10 +73,22 @@ body {
     top: 20px;
     padding-bottom:0px;
     font-size: 70px;
-    
 }
+
+.intro p {
+    margin-left:0;
+    padding-left: 10%;
+    padding-right:15px;
+    background-color: #51D6FF;
+    font-size: 40px;
+    position:absolute;
+    left:auto;
+    top: 95px;
+}
+
+
 .quote{
-    background-color: #8D9EC6;
+    background-color: #A06B9A;
     color:white;
     margin-left: 10px;
     margin-right: 100px;
@@ -55,16 +98,7 @@ body {
     border-radius: 3px;
     border: 1px solid #522B29;
 }
-.intro p {
-    margin-left:0;
-    padding-left: 10%;
-    padding-right:15px;
-    background-color: #51D6FF;
-    font-size: 40px;
-    position:absolute;
-    left:auto;
-    top: 90px;
-}
+
 
 .content {
     color: #522B29;
@@ -72,8 +106,9 @@ body {
     background-color: white;
     margin-left:10%;
     margin-right:10%;
+    margin-bottom:35px;
     padding-top:30px;
     padding-bottom:40px;
     border-radius: 10px;
-    border: 3px solid #522B29;
+    border: 1px dashed #522B29;
 }
